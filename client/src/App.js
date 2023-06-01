@@ -7,9 +7,7 @@ import { connect } from "react-redux";
 
 import * as actions from "./actions";
 
-const Landing = () => {
-  return <div>Landing</div>;
-};
+import Landing from "./components/Landing";
 
 const Dashboard = () => {
   return <div>Dashbaord</div>;
