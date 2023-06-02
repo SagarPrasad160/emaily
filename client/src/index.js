@@ -19,3 +19,5 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
+
+console.log("stripe key", process.env.REACT_APP_STRIPE_KEY);
